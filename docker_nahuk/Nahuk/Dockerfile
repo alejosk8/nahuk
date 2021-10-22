@@ -1,4 +1,4 @@
-FROM odoo:15.0
+FROM odoo:14.0
 
 LABEL MAINTAINER Alejandro Obando <alejo_sof@hotmail.com>
 USER root
