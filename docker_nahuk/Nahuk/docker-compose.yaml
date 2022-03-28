@@ -4,6 +4,7 @@
       container_name: ${WEB_HOST}
       image: ${WEB_IMAGE_NAME}:${WEB_IMAGE_TAG}
       build: ./
+      restart:always
       depends_on:
         - db
       ports:
